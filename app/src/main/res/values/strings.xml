@@ -5,4 +5,5 @@
     <string name="location_name">Location Name</string>
     <string name="location_description">Location Description. This is just long to fill out everything so I can see what it looks like!</string>
     <string name="location_address">123 Somewhere NW, Albuquerque NM 87105</string>
+
 </resources>
