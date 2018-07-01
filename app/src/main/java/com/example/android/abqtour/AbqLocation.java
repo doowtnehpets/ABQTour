@@ -2,7 +2,6 @@ package com.example.android.abqtour;
 
 /**
  * Custom class used to store locations for each view
- * <p>
  * image stores the view id of the image
  * name stores the name of the location
  * description stores a description of the location
