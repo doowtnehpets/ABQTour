@@ -51,7 +51,7 @@ public class ShopsFragment extends Fragment {
         abqLocationList.add(new AbqLocation(R.drawable.shop_abquptown,
                 "ABQ Uptown",
                 "An outdoor mall with more high-end retail stores, such as Apple Computer, Talbots, Pottery Barn, and Williams-Sonoma.",
-                "2200 Louisiana Blvd NE, Albuquerque, NM 87110"));
+                "2200 Louisiana Boulevard NE, Albuquerque, NM 87110"));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_cottonwood,
                 "Cottonwood Mall",
@@ -61,7 +61,7 @@ public class ShopsFragment extends Fragment {
         abqLocationList.add(new AbqLocation(R.drawable.shop_jackalope,
                 "Jackalope Nursery",
                 "A local chain of stores (there is also a location in Santa Fe) that sells folk art, pottery, rugs, and furniture from around the world. Folk art, pottery, handmade furniture & rugs.",
-                "6400 San Mateo Blvd NE, Albuquerque, NM 87109"));
+                "6400 San Mateo Boulevard NE, Albuquerque, NM 87109"));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_mamasminerals,
                 "Mama's Minerals",

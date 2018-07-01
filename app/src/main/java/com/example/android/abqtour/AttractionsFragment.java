@@ -37,7 +37,7 @@ public class AttractionsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.locations_recycler, container, false);
 
         // Grab the locations_recyclerview from the layout and set fixed size and set the layout manager
-        recyclerView = (RecyclerView) rootView.findViewById(R.id.locations_recyclerview);
+        recyclerView = rootView.findViewById(R.id.locations_recyclerview);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
@@ -66,7 +66,7 @@ public class AttractionsFragment extends Fragment {
         abqLocationList.add(new AbqLocation(R.drawable.attraction_balloon,
                 "Balloon Fiesta Park",
                 "Location of the largest balloon festival, held every year. The Fiesta is the world's largest ballooning event and one of the most photographed events in the world.",
-                "5000 Balloon Fiesta Pkwy NE, Albuquerque, NM 87113"));
+                "5000 Balloon Fiesta Parkway NE, Albuquerque, NM 87113"));
 
         abqLocationList.add(new AbqLocation(R.drawable.attraction_sandiacasino,
                 "Sandia Casino & Resort",
@@ -81,7 +81,7 @@ public class AttractionsFragment extends Fragment {
         abqLocationList.add(new AbqLocation(R.drawable.attraction_tingley,
                 "Tingley Beach",
                 "A facility of the Albuquerque Biological Park, this park along the Rio Grande has fishing ponds for adults and children, a model boating pond, a cafe, and a gift shop where you can buy fishing licenses, fishing gear, or rent a pedal boat for a ride on the central pond.",
-                "Paseo del Bosque Trail, Albuquerque, NM 87102"));
+                "1 Tingley Drive SW, Albuquerque, NM 87104"));
 
         abqLocationList.add(new AbqLocation(R.drawable.attraction_unser,
                 "Unser Racing Museum",

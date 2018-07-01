@@ -61,7 +61,7 @@ public class DrinksFragment extends Fragment {
         abqLocationList.add(new AbqLocation(R.drawable.drink_lacumbre,
                 "La Cumbre Brewing Co",
                 "A new microbrewery opened by a former brewer from Chama River Brewing Co with food trucks, live music & more.",
-                "3313 Girard Blvd NE, Albuquerque, NM 87107"));
+                "3313 Girard Boulevard NE, Albuquerque, NM 87107"));
 
         abqLocationList.add(new AbqLocation(R.drawable.drink_marble,
                 "Marble Brewery",

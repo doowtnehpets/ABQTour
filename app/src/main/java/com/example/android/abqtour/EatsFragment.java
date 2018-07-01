@@ -37,7 +37,7 @@ public class EatsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.locations_recycler, container, false);
 
         // Grab the locations_recyclerview from the layout and set fixed size and set the layout manager
-        recyclerView = (RecyclerView) rootView.findViewById(R.id.locations_recyclerview);
+        recyclerView = rootView.findViewById(R.id.locations_recyclerview);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
@@ -56,7 +56,7 @@ public class EatsFragment extends Fragment {
         abqLocationList.add(new AbqLocation(R.drawable.eat_bobs,
                 "Bob's Burgers",
                 "Taco burger, anyone? Spicy New Mexico chile served how you want. This local burger chain is always packed with locals for a reason.",
-                "6628 Caminito Coors NW, Albuquerque, NM 87120"));
+                "6628 Caminito Coors Drive NW, Albuquerque, NM 87120"));
 
         abqLocationList.add(new AbqLocation(R.drawable.eat_doghouse,
                 "Dog House Drive In",
