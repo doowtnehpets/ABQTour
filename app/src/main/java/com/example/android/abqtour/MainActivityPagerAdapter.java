@@ -24,7 +24,7 @@ public class MainActivityPagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return new EatsFragment();
             case 2:
-                return new AttractionsFragment();
+                return new DrinksFragment();
             case 3:
                 return new AttractionsFragment();
             default:

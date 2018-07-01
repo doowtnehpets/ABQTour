@@ -7,15 +7,48 @@
     android:orientation="vertical"
     tools:context="com.example.android.abqtour.MainActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abq_skyline" />
+
+        <TextView
+            android:id="@+id/abq_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Welcome to Albuquerque!"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:textColor="@color/primaryTextColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/abq_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="New Mexico’s largest city, sits in the high desert. Its modern Downtown core contrasts with Old Town Albuquerque, dating to the city’s 1706 founding as a Spanish colony."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/primaryTextColor" />
+
+    </RelativeLayout>
+
     <android.support.design.widget.TabLayout
         android:id="@+id/sliding_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/primaryLightColor"
+        android:background="@color/primaryColor"
         app:tabIndicatorColor="@android:color/white"
         app:tabMode="fixed"
         app:tabSelectedTextColor="@android:color/white"
-        app:tabTextColor="@color/secondaryDarkColor" />
+        app:tabTextColor="@color/secondaryLightColor" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
