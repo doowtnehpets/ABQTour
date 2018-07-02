@@ -165,5 +165,11 @@
     <string name="shops_candy_desc">The Candy Lady is a New Mexico Tradition for over 30 years. A popular candy shop with lots of homemade fudge, chocolates, caramels, and other sweets.</string>
     <string name="shops_candy_addr">424 San Felipe St NW, Albuquerque, NM 87104</string>
 
+    <!-- Page Titles -->
+    <string name="page_attracts">Attracts</string>
+    <string name="page_eats">Eats</string>
+    <string name="page_drinks">Drinks</string>
+    <string name="page_shops">Shops</string>
+
 
 </resources>

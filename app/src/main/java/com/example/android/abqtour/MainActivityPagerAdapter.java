@@ -1,6 +1,7 @@
 package com.example.android.abqtour;
 
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,9 +11,11 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class MainActivityPagerAdapter extends FragmentPagerAdapter {
 
+    Context context;
 
-    public MainActivityPagerAdapter(FragmentManager fm) {
+    public MainActivityPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+        this.context = context;
     }
 
     @Override
@@ -37,15 +40,15 @@ public class MainActivityPagerAdapter extends FragmentPagerAdapter {
         // Return the correct title for the current position
         switch (position) {
             case 0:
-                return "Attracts";
+                return context.getString(R.string.page_attracts);
             case 1:
-                return "Eats";
+                return context.getString(R.string.page_eats);
             case 2:
-                return "Drinks";
+                return context.getString(R.string.page_drinks);
             case 3:
-                return "Shops";
+                return context.getString(R.string.page_shops);
             default:
-                return "ABQ";
+                return context.getString(R.string.page_attracts);
         }
     }
 
