@@ -1,9 +1,169 @@
 <resources>
     <string name="app_name">ABQ Tour</string>
 
+    <!-- Header strings -->
+    <string name="header_title">Welcome to Albuquerque!</string>
+    <string name="header_caption">New Mexico’s largest city, sits in the high desert. Its modern Downtown core contrasts with Old Town Albuquerque, dating to the city’s 1706 founding as a Spanish colony.</string>
+
+    <!--*****************************************************************************************-->
+
     <!-- Card Layout strings -->
     <string name="location_name">Location Name</string>
     <string name="location_description">Location Description. This is just long to fill out everything so I can see what it looks like!</string>
     <string name="location_address">123 Somewhere NW, Albuquerque NM 87105</string>
+
+    <!--*****************************************************************************************-->
+
+    <!-- Attraction ABQ Aquarium -->
+    <string name="attract_abqaqua_name">ABQ BioPark Aquarium</string>
+    <string name="attract_abqaqua_desc">Albuquerque\'s small, but pleasant aquarium. Exhibits designed to simulate the Rio Grande and the saltwater marshes of the Gulf of Mexico before moving on to ocean species.</string>
+    <string name="attract_abqaqua_addr">2601 Central Ave NW, Albuquerque, NM 87104</string>
+
+    <!-- Attraction ABQ BioPark -->
+    <string name="attract_abqbio_name">ABQ BioPark Botanic Garden</string>
+    <string name="attract_abqbio_desc">Next door to the Aquarium, this expansive botanical garden is one of Albuquerque\'s real gems. The place is an oasis with a variety of gardens to explore, with an emphasis on high desert plants.</string>
+    <string name="attract_abqbio_addr">2601 Central Ave NW, Albuquerque, NM 87104</string>
+
+    <!-- Attraction ABQ Zoo -->
+    <string name="attract_abqzoo_name">ABQ BioPark Zoo</string>
+    <string name="attract_abqzoo_desc">It may not be as big as your average big city zoo, but this zoo is surprisingly comprehensive for its size, with most of the popular species you can expect to find at any good zoo.</string>
+    <string name="attract_abqzoo_addr">903 10th St SW, Albuquerque, NM 87102</string>
+
+    <!-- Attraction Balloon Fiesta Park -->
+    <string name="attract_balloon_name">Balloon Fiesta Park</string>
+    <string name="attract_balloon_desc">Location of the largest balloon festival, held every year. The Fiesta is the world\'s largest ballooning event and one of the most photographed events in the world.</string>
+    <string name="attract_balloon_addr">5000 Balloon Fiesta Parkway NE, Albuquerque, NM 87113</string>
+
+    <!-- Attraction Sandia Casino & Resort -->
+    <string name="attract_sandia_name"><![CDATA[Sandia Casino & Resort]]></string>
+    <string name="attract_sandia_desc"><![CDATA[Come gamble in Albuquerque\'s backyard. With over 2,300 unique slot machines, New Mexico’s only live Keno games, bingo, and 33 tables for poker, blackjack and more, see why Sandia is the place locals & visitors]]></string>
+    <string name="attract_sandia_addr">30 Rainbow Rd, Albuquerque, NM 87113</string>
+
+    <!-- Attraction Sandia Peak Tram -->
+    <string name="attract_tram_name">Sandia Peak Tram</string>
+    <string name="attract_tram_desc">Runs from a lower terminus in the northeast heights to the top of 10,400-foot (3169 m) Sandia Peak east of the city, and is one of the longest and most spectacular aerial tramways in the world.</string>
+    <string name="attract_tram_addr">30 Tramway Rd NE, Albuquerque, NM 87122</string>
+
+    <!-- Attraction Tingley Beach -->
+    <string name="attract_tingley_name">Tingley Beach</string>
+    <string name="attract_tingley_desc">A facility of the Albuquerque Biological Park, this park along the Rio Grande has fishing ponds for adults and children, a model boating pond, a cafe, and a gift shop where you can buy fishing licenses, fishing gear, or rent a pedal boat for a ride on the central pond.</string>
+    <string name="attract_tingley_addr">1 Tingley Drive SW, Albuquerque, NM 87104</string>
+
+    <!-- Attraction Unser Racing Museum -->
+    <string name="attract_unser_name">Unser Racing Museum</string>
+    <string name="attract_unser_desc">Operated by the local Unser racing family, this museum is dedicated to the racing legacy of the Unsers as well as to the sport of auto racing in general.</string>
+    <string name="attract_unser_addr">1776 Montaño Rd NW, Albuquerque, NM 87107</string>
+
+    <!--*****************************************************************************************-->
+
+    <!-- Drinks Burt's Tiki Loounge -->
+    <string name="drinks_burts_name">Burt\'s Tiki Lounge</string>
+    <string name="drinks_burts_desc"><![CDATA[Island-themed bar with cocktails & live music. Eclectic doesn\'t even begin to describe Burt\'s. Monday nights, Geeks Who Drink pub trivia.]]></string>
+    <string name="drinks_burts_addr">515 Central Ave NW, Albuquerque, NM 87102</string>
+
+    <!-- Drinks Kelly's Brew Pub -->
+    <string name="drinks_kellys_name">Kelly\'s Brew Pub</string>
+    <string name="drinks_kellys_desc">A Route 66-era gas station and garage-turned-restaurant, with lots of vintage decorations. Wide variety of beers brewed on site. Good food and an extensive outdoor patio for people watching.</string>
+    <string name="drinks_kellys_addr">3222 Central Ave SE, Albuquerque, NM 87106</string>
+
+    <!-- Drinks La Cumbre Brewing Co -->
+    <string name="drinks_lacumbre_name">La Cumbre Brewing Co</string>
+    <string name="drinks_lacumbre_desc"><![CDATA[A new microbrewery opened by a former brewer from Chama River Brewing Co with food trucks, live music & more.]]></string>
+    <string name="drinks_lacumbre_addr">3313 Girard Boulevard NE, Albuquerque, NM 87107</string>
+
+    <!-- Drinks Marble Brewery -->
+    <string name="drinks_marble_name">Marble Brewery</string>
+    <string name="drinks_marble_desc">Fine local micro brewery in Albuquerque\'s industrial heart. Limited food selection, but in a taproom -- that\'s the point.</string>
+    <string name="drinks_marble_addr">111 Marble Ave NW, Albuquerque, NM 87102</string>
+
+    <!-- Drinks Monte Vista Fire Station -->
+    <string name="drinks_montevista_name">Monte Vista Fire Station</string>
+    <string name="drinks_montevista_desc">Southwestern pub featuring live local musicians. Located in a historic former fire station in the Nob Hill neighborhood</string>
+    <string name="drinks_montevista_addr">3201 Central Ave NE, Albuquerque, NM 87106</string>
+
+    <!-- Drinks The Launchpad -->
+    <string name="drinks_launchpad_name">The Launchpad</string>
+    <string name="drinks_launchpad_desc">Well established music venue and rock bar and perhaps the best place to see live music in town. Located in downtown Albuquerque.</string>
+    <string name="drinks_launchpad_addr">618 Central Ave SW, Albuquerque, NM 87102</string>
+
+    <!-- Drinks The Library -->
+    <string name="drinks_library_name"><![CDATA[The Library Bar & Grill]]></string>
+    <string name="drinks_library_desc"><![CDATA[Drinks, burgers, burritos & drinks. School girl dress bartenders serve bikers by day and club goers by night.]]></string>
+    <string name="drinks_library_addr">312 Central Ave SW, Albuquerque, NM 87102</string>
+
+    <!--*****************************************************************************************-->
+
+    <!-- Eats 66 Diner -->
+    <string name="eats_66diner_name">66 Diner</string>
+    <string name="eats_66diner_desc"><![CDATA[50\'s and 60\'s retro diner with vintage jukebox and soda fountain on historic Route 66. Mouthwatering burgers, shakes & desserts.]]></string>
+    <string name="eats_66diner_addr">1405 Central Ave NE, Albuquerque, NM 87106</string>
+
+    <!-- Eats Bob's Burgers -->
+    <string name="eats_bobs_name">Bob\'s Burgers</string>
+    <string name="eats_bobs_desc">Taco burger, anyone? Spicy New Mexico chile served how you want. This local burger chain is always packed with locals for a reason.</string>
+    <string name="eats_bobs_addr">6628 Caminito Coors Drive NW, Albuquerque, NM 87120</string>
+
+    <!-- Eats Dog House Drive In -->
+    <string name="eats_doghouse_name">Dog House Drive In</string>
+    <string name="eats_doghouse_desc"><![CDATA[An Albuquerque classic. Old school take out serving burgers, chili cheese dogs, fries & shakes. Located on historic Route 66, very recognizable with its neon dog sign.]]></string>
+    <string name="eats_doghouse_addr">1216 Central Ave NW, Albuquerque, NM 87102</string>
+
+    <!-- Eats Flying Star -->
+    <string name="eats_flying_name">Flying Star</string>
+    <string name="eats_flying_desc">A local space age-themed chain with a wide variety of salads, sandwiches, entrees, New Mexican food, and superb desserts. Rated \'Best Bakery\' in Albuquerque.</string>
+    <string name="eats_flying_addr">10700 Corrales Road NW A, Albuquerque, NM 87114</string>
+
+    <!-- Eats Frontier Restaurant -->
+    <string name="eats_frontier_name">Frontier Restaurant</string>
+    <string name="eats_frontier_desc">One of the most popular restaurants in Albuquerque; a big hangout for the college students at UNM. Good American and New Mexican food, the breakfast burrito here is one of the best in Albuquerque.</string>
+    <string name="eats_frontier_addr">2400 Central Ave SE, Albuquerque, NM 87106</string>
+
+    <!-- Eats Sadie's -->
+    <string name="eats_sadies_name">Sadie\'s</string>
+    <string name="eats_sadies_desc">If you’re looking for a mouth-watering experience, then go to Sadie’s! They’ve been serving up hot, heavenly plates made with the distinctive flavors of true New Mexican cuisine for over 60 years.</string>
+    <string name="eats_sadies_addr">5400 Academy Rd NE, Albuquerque, NM 87109</string>
+
+    <!-- Eats Zinc Wine Bar & Bistro -->
+    <string name="eats_zinc_name"><![CDATA[Zinc Wine Bar & Bistro]]></string>
+    <string name="eats_zinc_desc">Fine dining in Albuquerque, using local ingredients. Located in Nob Hill. Zinc is pleasant and well-appointed inside. Don\'t miss the wine bar and jazz in the basement.</string>
+    <string name="eats_zinc_addr">3009 Central Ave NE, Albuquerque, NM 87106</string>
+
+    <!--*****************************************************************************************-->
+
+    <!-- Shops ABQ Uptown -->
+    <string name="shops_abquptown_name">ABQ Uptown</string>
+    <string name="shops_abquptown_desc">An outdoor mall with more high-end retail stores, such as Apple Computer, Talbots, Pottery Barn, and Williams-Sonoma.</string>
+    <string name="shops_abquptown_addr">2200 Louisiana Boulevard NE, Albuquerque, NM 87110</string>
+
+    <!-- Shops Cottonwood Mall -->
+    <string name="shops_cottonwood_name">Cottonwood Mall</string>
+    <string name="shops_cottonwood_desc">Shopping mall in the Northwest Albuquerque area. A typical indoor mall, the surrounding area contains most typical \'big box\' retailers.</string>
+    <string name="shops_cottonwood_addr">10000 Coors Bypass NW, Albuquerque, NM 87114</string>
+
+    <!-- Shops Jackalope Nursery -->
+    <string name="shops_jackalope_name">Jackalope Nursery</string>
+    <string name="shops_jackalope_desc"><![CDATA[A local chain of stores (there is also a location in Santa Fe) that sells folk art, pottery, rugs, and furniture from around the world. Folk art, pottery, handmade furniture & rugs.]]></string>
+    <string name="shops_jackalope_addr">6400 San Mateo Boulevard NE, Albuquerque, NM 87109</string>
+
+    <!-- Shops Mama's Minerals -->
+    <string name="shops_mamas_name">Mama\'s Minerals</string>
+    <string name="shops_mamas_desc">A wonderful store with an extensive collection of minerals, geologic specimens, gems, beads, supplies for the geologist, information about local geology, and more.</string>
+    <string name="shops_mamas_addr">800 20th St NW B, Albuquerque, NM 87104</string>
+
+    <!-- Shops Masks y Mas -->
+    <string name="shops_masks_name">Masks y Mas</string>
+    <string name="shops_masks_desc">An art gallery and store cram packed with Day of the Dead folk art. Commemorate El Día de los Muertos with dead figurines, art, t-shirts and more.</string>
+    <string name="shops_masks_addr">3106 Central Ave SE, Albuquerque, NM 87106</string>
+
+    <!-- Shops Old Town Emporium -->
+    <string name="shops_emporium_name">Old Town Emporium</string>
+    <string name="shops_emporium_desc"><![CDATA[A very large gift shop with all the typical tourist kitsch, which certainly has its charm. New Mexico gifts, souvenirs & collectibles.]]></string>
+    <string name="shops_emporium_addr">204 San Felipe St NW, Albuquerque, NM 87104</string>
+
+    <!-- Shops The Candy Lady -->
+    <string name="shops_candy_name">The Candy Lady</string>
+    <string name="shops_candy_desc">The Candy Lady is a New Mexico Tradition for over 30 years. A popular candy shop with lots of homemade fudge, chocolates, caramels, and other sweets.</string>
+    <string name="shops_candy_addr">424 San Felipe St NW, Albuquerque, NM 87104</string>
+
 
 </resources>

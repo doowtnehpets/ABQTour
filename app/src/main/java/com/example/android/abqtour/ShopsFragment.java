@@ -49,39 +49,39 @@ public class ShopsFragment extends Fragment {
 
         // Add locations to the list
         abqLocationList.add(new AbqLocation(R.drawable.shop_abquptown,
-                "ABQ Uptown",
-                "An outdoor mall with more high-end retail stores, such as Apple Computer, Talbots, Pottery Barn, and Williams-Sonoma.",
-                "2200 Louisiana Boulevard NE, Albuquerque, NM 87110"));
+                getString(R.string.shops_abquptown_name),
+                getString(R.string.shops_abquptown_desc),
+                getString(R.string.shops_abquptown_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_cottonwood,
-                "Cottonwood Mall",
-                "Shopping mall in the Northwest Albuquerque area. A typical indoor mall, the surrounding area contains most typical 'big box' retailers.",
-                "10000 Coors Bypass NW, Albuquerque, NM 87114"));
+                getString(R.string.shops_cottonwood_name),
+                getString(R.string.shops_cottonwood_desc),
+                getString(R.string.shops_cottonwood_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_jackalope,
-                "Jackalope Nursery",
-                "A local chain of stores (there is also a location in Santa Fe) that sells folk art, pottery, rugs, and furniture from around the world. Folk art, pottery, handmade furniture & rugs.",
-                "6400 San Mateo Boulevard NE, Albuquerque, NM 87109"));
+                getString(R.string.shops_jackalope_name),
+                getString(R.string.shops_jackalope_desc),
+                getString(R.string.shops_jackalope_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_mamasminerals,
-                "Mama's Minerals",
-                "A wonderful store with an extensive collection of minerals, geologic specimens, gems, beads, supplies for the geologist, information about local geology, and more.",
-                "800 20th St NW B, Albuquerque, NM 87104"));
+                getString(R.string.shops_mamas_name),
+                getString(R.string.shops_mamas_desc),
+                getString(R.string.shops_mamas_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_masksymas,
-                "Masks y Mas",
-                "An art gallery and store cram packed with Day of the Dead folk art. Commemorate El Día de los Muertos with dead figurines, art, t-shirts and more.",
-                "3106 Central Ave SE, Albuquerque, NM 87106"));
+                getString(R.string.shops_masks_name),
+                getString(R.string.shops_masks_desc),
+                getString(R.string.shops_masks_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_emporium,
-                "Old Town Emporium",
-                "A very large gift shop with all the typical tourist kitsch, which certainly has its charm. New Mexico gifts, souvenirs & collectibles.",
-                "204 San Felipe St NW, Albuquerque, NM 87104"));
+                getString(R.string.shops_emporium_name),
+                getString(R.string.shops_emporium_desc),
+                getString(R.string.shops_emporium_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.shop_candylady,
-                "The Candy Lady",
-                "The Candy Lady is a New Mexico Tradition for over 30 years. A popular candy shop with lots of homemade fudge, chocolates, caramels, and other sweets.",
-                "424 San Felipe St NW, Albuquerque, NM 87104"));
+                getString(R.string.shops_candy_name),
+                getString(R.string.shops_candy_desc),
+                getString(R.string.shops_candy_addr)));
 
         // Create the recycler view adapter
         AbqLocationAdapter adapter = new AbqLocationAdapter(getActivity(), abqLocationList);

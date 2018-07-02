@@ -49,39 +49,39 @@ public class DrinksFragment extends Fragment {
 
         // Add locations to the list
         abqLocationList.add(new AbqLocation(R.drawable.drink_burts,
-                "Burt's Tiki Lounge",
-                "Island-themed bar with cocktails & live music. Eclectic doesn't even begin to describe Burt's. Monday nights, Geeks Who Drink pub trivia.",
-                "515 Central Ave NW, Albuquerque, NM 87102"));
+                getString(R.string.drinks_burts_name),
+                getString(R.string.drinks_burts_desc),
+                getString(R.string.drinks_burts_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.drink_kellys,
-                "Kelly's Brew Pub",
-                "A Route 66-era gas station and garage-turned-restaurant, with lots of vintage decorations. Wide variety of beers brewed on site. Good food and an extensive outdoor patio for people watching.",
-                "3222 Central Ave SE, Albuquerque, NM 87106"));
+                getString(R.string.drinks_kellys_name),
+                getString(R.string.drinks_kellys_desc),
+                getString(R.string.drinks_kellys_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.drink_lacumbre,
-                "La Cumbre Brewing Co",
-                "A new microbrewery opened by a former brewer from Chama River Brewing Co with food trucks, live music & more.",
-                "3313 Girard Boulevard NE, Albuquerque, NM 87107"));
+                getString(R.string.drinks_lacumbre_name),
+                getString(R.string.drinks_lacumbre_desc),
+                getString(R.string.drinks_lacumbre_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.drink_marble,
-                "Marble Brewery",
-                "Fine local micro brewery in Albuquerque's industrial heart. Limited food selection, but in a taproom -- that's the point.",
-                "111 Marble Ave NW, Albuquerque, NM 87102"));
+                getString(R.string.drinks_marble_name),
+                getString(R.string.drinks_marble_desc),
+                getString(R.string.drinks_marble_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.drink_montevista,
-                "Monte Vista Fire Station",
-                "Southwestern pub featuring live local musicians. Located in a historic former fire station in the Nob Hill neighborhood",
-                "3201 Central Ave NE, Albuquerque, NM 87106"));
+                getString(R.string.drinks_montevista_name),
+                getString(R.string.drinks_montevista_desc),
+                getString(R.string.drinks_montevista_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.drink_launchpad,
-                "The Launchpad",
-                "Well established music venue and rock bar and perhaps the best place to see live music in town. Located in downtown Albuquerque.",
-                "618 Central Ave SW, Albuquerque, NM 87102"));
+                getString(R.string.drinks_launchpad_name),
+                getString(R.string.drinks_launchpad_desc),
+                getString(R.string.drinks_launchpad_addr)));
 
         abqLocationList.add(new AbqLocation(R.drawable.drink_library,
-                "The Library Bar & Grill",
-                "Drinks, burgers, burritos & drinks. School girl dress bartenders serve bikers by day and club goers by night.",
-                "312 Central Ave SW, Albuquerque, NM 87102"));
+                getString(R.string.drinks_library_name),
+                getString(R.string.drinks_library_desc),
+                getString(R.string.drinks_library_addr)));
 
         // Create the recycler view adapter
         AbqLocationAdapter adapter = new AbqLocationAdapter(getActivity(), abqLocationList);
